@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+</head>
+<body>
+<h1>Enter station and date to get temperature on that particular day.</h1>
+
+<h3>Get all data for a particular station</h3>
+<p>URL Format: http://127.0.0.1:8080/api/v1/station</p>
+<p>URL Example: http://127.0.0.1:8080/api/v1/10</p>
+<hr>
+
+<h3>Get data for a particular station on a particular date</h3>
+<p>URL Format: http://127.0.0.1:8080/api/v1/station/date</p>
+<p>URL Example: http://127.0.0.1:8080/api/v1/10/17560101</p>
+<hr>
+
+<h3>Get data for a particular station for a particular year</h3>
+<p>URL Format: http://127.0.0.1:8080/api/v1/yearly/station/year</p>
+<p>URL Example: http://127.0.0.1:8080/api/v1/yearly/10/2000</p>
+<hr>
+
+<p>{{data|safe}}</p>
+</body>
+</html>
